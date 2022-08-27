@@ -11,3 +11,4 @@ rand = "0.8.5"
 [dependencies.opencl3]
 version = "0.8.1"
 features = ["CL_VERSION_1_1", "CL_VERSION_1_2"]
+default-features = false

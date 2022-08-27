@@ -4,7 +4,7 @@ use opencl3::device::{
     device_type_text, get_all_devices, vendor_id_text, Device, CL_DEVICE_TYPE_GPU,
 };
 use opencl3::kernel::{ExecuteKernel, Kernel};
-use opencl3::memory::{Buffer, CL_MEM_READ_ONLY, CL_MEM_SVM_ATOMICS, CL_MEM_WRITE_ONLY};
+use opencl3::memory::{Buffer, CL_MEM_READ_ONLY, CL_MEM_WRITE_ONLY};
 use opencl3::program::Program;
 use opencl3::types::{cl_event, cl_int, CL_BLOCKING};
 use opencl3::Result;
